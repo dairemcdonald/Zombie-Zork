@@ -1,0 +1,17 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/images">
+        <file>images/chest.png</file>
+        <file>images/bottomdoor.png</file>
+        <file>images/leftdoor.png</file>
+        <file>images/rightdoor.png</file>
+        <file>images/topdoor.png</file>
+		<file>images/e_bottomdoor.png</file>
+        <file>images/e_leftdoor.png</file>
+        <file>images/e_rightdoor.png</file>
+        <file>images/e_topdoor.png</file>
+		<file>images/room.png</file>
+		<file>images/bag.png</file>
+		<file>images/gunBox.png</file>
+    </qresource>
+</RCC>

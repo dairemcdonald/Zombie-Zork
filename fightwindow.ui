@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fightwindow</class>
+ <widget class="QDialog" name="fightwindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>631</width>
+    <height>398</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>527</x>
+     <y>290</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HP</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="SniperChoice">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>300</y>
+     <width>95</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sniper</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rifleChoice">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>270</y>
+     <width>95</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rifle</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="lmgChoice">
+   <property name="geometry">
+    <rect>
+     <x>127</x>
+     <y>300</y>
+     <width>95</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LMG</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="smgChoice">
+   <property name="geometry">
+    <rect>
+     <x>127</x>
+     <y>240</y>
+     <width>95</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SMG</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="battleMsg">
+   <property name="geometry">
+    <rect>
+     <x>237</x>
+     <y>230</y>
+     <width>281</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Battle Messages</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="shotgunChoice">
+   <property name="geometry">
+    <rect>
+     <x>127</x>
+     <y>270</y>
+     <width>95</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Shotgun</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="grenadeNumber">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>250</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>0</y>
+     <width>151</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="head1">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>45</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>40%</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L_leg1">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>22</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>60</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="R_leg1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>120</y>
+      <width>22</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>%</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="R_arm1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>60</y>
+      <width>45</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>50%</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="torso1">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>45</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>90%</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L_arm1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>45</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>50%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>170</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HP</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>190</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>527</x>
+     <y>230</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Grenades</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="pistolChoice">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>240</y>
+     <width>95</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pistol</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="hpNumber">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>310</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
